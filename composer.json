@@ -1,0 +1,15 @@
+{
+    "name": "drupal/jugaad",
+    "description": "An example composer.json file for a custom module.",
+    "type": "drupal-custom-module",
+    "authors": [
+        {
+            "name": "N.Ramesh Babu",
+            "email": "n_ramesh22@ymail.com"
+        }
+    ],
+	"require": {
+		"php": "^7.4",
+		"chillerlan/php-qrcode": "dev-main"
+	}
+}

@@ -1,0 +1,8 @@
+name: Jugaad customs module
+type: module
+description: This is Jugaad customs module
+core_version_requirement: ^8 || ^9
+core: 8.x
+package: Custom
+dependencies:
+    - block

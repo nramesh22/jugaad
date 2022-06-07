@@ -1,0 +1,23 @@
+<?php 
+/**
+ * @file
+ * Contains whatsnew.module.
+ */
+use Drupal\Core\Routing\RouteMatchInterface;
+use Drupal\Core\Form\FormStateInterface;
+use Drupal\node\NodeInterface;
+/**
+ * Implements hook_help().
+ */
+/**
+ * Implements hook_theme().
+ */
+function jugaad_theme() {
+	$theme = [
+		'qr_code_display' => [
+			'variables' => [ 'myTitle' => NULL, 'link' => NULL ],
+			'template'=>'block--qrcode',
+		]
+	];
+	return $theme;
+}

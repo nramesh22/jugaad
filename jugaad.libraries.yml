@@ -1,0 +1,8 @@
+jugaad:
+  version: 1.x
+  js:
+    
+  dependencies:
+     - core/drupalSettings
+     - core/jquery
+     - core/jquery.validate

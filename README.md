@@ -7,3 +7,7 @@ Demo link : https://drupaltest.phprameshbabu.in/
 Admin link : https://drupaltest.phprameshbabu.in/user/
 
 Login : admin/admin@2022
+
+PHP Dependancy Library for QR Code generation :
+
+chillerlan/php-qrcode
